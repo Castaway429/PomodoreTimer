@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodore</title>
+</head>
+<body>
+  
+</body>
+</html>
+<style>
+#demo {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+#task {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -50px;
+}
+
+#line{
+  text-align: center;
+    font-size: 40px;
+    margin-top: -80px;
+}
+
+h1{
+   text-align: center; 
+   margin-top: 0px;
+}
+
+#cancel{
+  display: block;
+  margin: 0 auto;
+}
+
+#TimerRuns{
+  displaY: none;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Pomodore Technique</h1>
+
+<div id = "TimerRuns">
+  
+<p id="demo">LOADING...</p>
+<p id = "line">-------------</p>
+<p id = "task"></p>
+<button id = "cancel">Cancel!</button>
+</div>
+
+<div id = "Begin">
+<label>Enter Task:</label>
+<input id = "taskInput">
+<br>
+<br>
+<label>Enter time (in minutes)</label>
+<input id = "timeInput">
+<br>
+<br>
+<button id = "submit">Start Timer!</button>    
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
